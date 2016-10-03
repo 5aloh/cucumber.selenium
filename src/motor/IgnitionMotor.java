@@ -3,7 +3,6 @@ package motor;
 import org.junit.runner.RunWith;
 
 import cucumber.api.junit.Cucumber;
-//Glue code for feature files 
 //testing commit
 @RunWith(Cucumber.class)
 @Cucumber.Options(features="features",glue={"pasos"})
